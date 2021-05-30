@@ -1,7 +1,8 @@
 # Industrial Visit Planning & Booking System (Community part)
 
 ## 1. Use cases
-저희 프로젝트의 Community 파트는 총 5가지의 Use case로 구분됩니다. 이는 다음과 같습니다.
+저희 프로젝트의 Community 파트는 총 5가지의 Use case로 구분됩니다. 각 Use case에 대한
+간략한 설명을 하자면 아래 기술된 사항들과 같습니다.
 
 ### Use case 1 : 커뮤니티 메인메뉴 디스플레이
 ***
@@ -41,10 +42,10 @@
 3. 방문자는 마이 페이지에서 본인이 작성한 후기 혹은 특정 게시글에 대한 댓글을 수정하거나 삭제할 수 있습니다.
 
 
+***
+## Domain Models
 
-### Installing / 설치
 
-아래 사항들로 현 프로젝트에 관한 모듈들을 설치할 수 있습니다.
 
 ```
 예시
