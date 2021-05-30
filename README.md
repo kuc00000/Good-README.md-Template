@@ -67,48 +67,54 @@
 
 ***
 ### Controller
-***
+```
 Type은 D(data), C(Controller)이며 커뮤니티 페이지의 모든 activity들을 관리합니다.
-
+```
 ### InputEntry
-***
+```
 Type은 D(data), B(Boundary)이며 사용자가 입력한 값을 전달하는 데 사용됩니다.
-
+```
 ### ServiceDisplay
-***
+```
 Type은 D(data), B(Boundary)이며 웹페이지를 디스플레이 하는 역할을 합니다.
-
+```
 ### UserInput
-***
+```
 Type은 K(know), B(Boundary)이며 사용자의 입력 값을 저장합니다.
-
+```
 ### DBOperator
+```
 Type은 D(Data), B(Boundary)이며 쿼리문을 받아 해당 쿼리문을 처리해서 결과를 받아오거나 그 결과를 DB에
 
 입력합니다.
+```
 ***
 ### PostProcessor
 ***
+```
 Type은 D(Data), C(Controller)이며 자주 사용될 쿼리문의 형식을 저장해 두었다가, DBOperator에 사용될
 쿼리로 넘겨주는 역할을 합니다.
-
+```
 
 ### PersonalInfoDisplay
 ***
+```
 Type은 K(know), B(Boundary)이며 유저에 대한 개인 정보를 디스플레이합니다.
-
+```
 
 ### ReportUser
 ***
+```
 Type은 D(data), B(Boundary)이며 커뮤니티 정책을 위반하는 게시글 및 댓글을 신고합니다.
-
+```
 
 ### RedirectUser
 ***
+```
 Type은 D(Data), B(Boundary)이며 사용자가 웹 페이지에서 버튼을 클릭하거나 웹 페이지에
 url을 바꾸었을 때 이에 해당하는 페이지로 이동할 수 있도록 처리합니다.
-
-
+```
+***
 
 ### 테스트는 이런 식으로 동작합니다
 
